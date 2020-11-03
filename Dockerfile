@@ -1,4 +1,5 @@
 FROM php:7.1-fpm
+MAINTAINER pietrovich@users.noreply.github.com
 
 ADD ./php.ini /usr/local/etc/php/php.ini
 
